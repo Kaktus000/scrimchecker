@@ -19,6 +19,7 @@ async def main():
 while True:
     if download(basestring + timestring + ".json.gz") is not None:
         asyncio.run(main())
+        break
     else:
         print("No Scrim Data yet")
     time.sleep(1)
