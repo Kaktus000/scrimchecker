@@ -27,4 +27,4 @@ while True:
         elapsed = datetime.datetime.now() - start_time
         formatted = str(elapsed).split(".")[0]
         print(f"No Scrim Data yet. Running for {formatted}.")
-    time.sleep(1)
+    time.sleep(60)
